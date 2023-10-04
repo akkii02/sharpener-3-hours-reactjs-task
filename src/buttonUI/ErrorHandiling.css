@@ -1,0 +1,47 @@
+#container {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  margin: -150px;
+  width: 600px;
+  height: 200px;
+  background-color: #fff;
+}
+header {
+  background: #8b005d;
+  padding: 1rem;
+}
+h2 {
+  margin: 0;
+  color: white;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.actions {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+button {
+  font: inherit;
+  padding: 0.3rem 1.5rem;
+  border: 1px solid #8b005d;
+  color: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+  background: #8b005d;
+  margin-bottom: 8px;
+}
+.button:focus {
+  outline: none;
+}
+
+.button:hover,
+.button:active {
+  background: #ac0e77;
+  border-color: #ac0e77;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
+}

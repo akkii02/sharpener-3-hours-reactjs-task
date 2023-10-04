@@ -1,0 +1,48 @@
+.form-control {
+      margin: 0.5rem 0;
+    }
+    
+    .form-control label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 0.8rem;
+    }
+    
+    .form-control input {
+      display: block;
+      width: 100%;
+      border: 1px solid #ccc;
+      font: inherit;
+      line-height: 1.5rem;
+      padding: 0 0.25rem;
+    }
+    
+    .form-control input:focus {
+      outline: none;
+      background: #fad0ec;
+      border-color: #8b005d;
+    }
+    .form-control {
+      margin-bottom: 20px;
+    }
+    
+    .invalid {
+      color: white;
+      background-color: #dc3545;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: center;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    
+    .alert {
+      color: white;
+      background-color: #ffc107;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: center;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    

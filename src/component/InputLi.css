@@ -1,0 +1,14 @@
+ul{
+  padding: 0;
+}
+#goal-li{
+      width: 32rem;
+      max-width: 90%;
+      margin: auto;
+      padding: 1rem;
+      border-radius: 10px;
+      background: #fff;
+      list-style-type: none;
+      margin-bottom: 1rem;
+    }
+    
